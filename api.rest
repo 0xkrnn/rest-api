@@ -1,2 +1,13 @@
-POST http://localhost:3500/register
+POST http://localhost:3500/api
 Content-Type: "application/json"
+
+{    
+    "name" : "karan",
+    "age" : 20,
+    "department" : "it",
+    "salary" : 12000
+    }
+
+###
+
+GET http://localhost:3500/api
