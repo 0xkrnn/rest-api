@@ -1,0 +1,2 @@
+POST http://localhost:3500/register
+Content-Type: "application/json"
